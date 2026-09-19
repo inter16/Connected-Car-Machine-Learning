@@ -1,0 +1,58 @@
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Python testing / tooling caches
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+
+.coverage
+htmlcov/
+
+# IDE / Editor
+
+.vscode/
+.idea/
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.swp
+*~
+
+# PyTorch / machine learning checkpoints
+
+*.pt
+*.pth
+*.ckpt
+
+# Build / packaging artifacts
+
+build/
+dist/
+*.egg-info/
