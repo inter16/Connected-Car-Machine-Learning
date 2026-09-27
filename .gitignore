@@ -56,3 +56,8 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+# 기타
+
+*.so
+.Python

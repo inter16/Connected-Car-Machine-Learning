@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "connected-car-rl-assignment2"
+version = "0.1.0"
+description = "PyTorch implementation of policy evaluation and value iteration for a 4x4 GridWorld."
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
