@@ -1,0 +1,15 @@
+HW3 4x4 Grid World: uniform random actions, reward -1 per step, border actions remain in place (Lecture 2, p. 11)
+episodes=50000, gamma=1.0, seed=42
+
+[2-2] TD(0): V(s)
+  -57.637    -55.497    -52.808    -49.939
+  -55.580    -52.254    -47.302    -41.932
+  -52.080    -47.224    -38.024    -29.106
+  -49.773    -43.790    -27.641      0.000
+alpha=0.01, total_steps=2979871, MAE_vs_exact=1.9276
+
+[Reference] Exact Bellman-policy value (not learned)
+  -59.429    -57.429    -54.286    -51.714
+  -57.429    -54.571    -49.714    -45.143
+  -54.286    -49.714    -40.857    -30.000
+  -51.714    -45.143    -30.000      0.000
